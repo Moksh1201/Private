@@ -1,3 +1,93 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3599681 */
+  src: url('//at.alicdn.com/t/c/font_3599681_5t82tliame6.woff2?t=1660988709459') format('woff2'),
+       url('//at.alicdn.com/t/c/font_3599681_5t82tliame6.woff?t=1660988709459') format('woff'),
+       url('//at.alicdn.com/t/c/font_3599681_5t82tliame6.ttf?t=1660988709459') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xingxingx:before {
+  content: "\e60c";
+}
+
+.icon-search:before {
+  content: "\e82e";
+}
+
+
+
+/* index.css */
+
+/* Add a CSS class for the container */
+.container {
+  max-width: 96%;
+  padding: 0 10px; /* Adjust padding for responsive layout */
+  box-sizing: border-box;
+}
+
+/* Style the searchBar section */
+.searchBar {
+  display: flex;
+  align-items: center;
+  background-color: #e0d9d9; /* Light grey background color */
+  padding: 15px;
+}
+
+/* Style the label */
+.searchBar label {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+/* Style the input field */
+.custom-input {
+  flex: 1; /* Take up remaining space */
+  padding: 5px 10px;
+}
+
+/* Style the "Post" button */
+.B3 {
+  background-color: #bbb3b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+   /* Add a smooth transition effect */
+}
+
+h4{
+  padding: 5px;
+}
+
+.B3:hover {
+  background-color: #a3abb4; /* Darker blue on hover */
+}
+
+/* Style the "Login" button */
+.B2 {
+  background-color: #6f7470;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+   /* Add a smooth transition effect */
+}
+
+.B2:hover {
+  background-color: #949895; /* Darker green on hover */
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +101,294 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.value
+{
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+/*navigation bar*/
+/* Apply these styles to the entire page */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the navigation bar */
+.nav {
+  width: 100%;
+  background-color: rgba(188, 185, 181, 0.6);
+}
+
+/* Center everything horizontally and align text/elements vertically */
+.wrap1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Style for the "Dev@Deakin" heading */
+h4 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Style for the search input and button */
+.search {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Allow the search input to grow and occupy remaining space */
+}
+
+.search input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  
+  outline: none;
+}
+
+.search button {
+  background-color: rgba(188, 185, 181, 0.6);
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: rgb(99, 96, 94);
+}
+
+/* Style for the navigation links */
+.nav-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-bar li {
+  margin-right: 10px;
+}
+
+.nav-bar a {
+  color: rgb(21, 20, 20);
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar a:hover {
+  color: rgb(95, 93, 91);
+  font-size: larger;
+}
+
+
+
+.Image-part{
+   padding: 20px;
+   
+}
+
+
+/* Featured*/
+h1{
+  margin-left: 39.5%;
+  margin-top: 10px;
+}
+
+#star *{
+  vertical-align:middle;
+  font-size: 14px; 
+}
+
+.Article{
+  display: flex;
+  
+}
+
+.article {
+  width: calc(33%);
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  margin-inline-start: 137px;
+
+ 
+ 
+}
+
+.article-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.article-description {
+  margin-top: 5px;
+}
+.article-rating {
+  float: left;
+}
+.article-author {
+  float: right;
+}
+
+
+.see{
+  width:180px;
+  height:30px;
+  font-size: large;
+  background-color: rgb(173, 170, 167);
+  border-radius: 50px;
+  margin-left: 42%;
+  border-style: 1px;
+  margin-top: 15px;
+}
+
+
+/*Email*/
+.foot-text{
+  height:40px;
+  width: auto;
+  float: left;
+  /* margin-right: 30px; */
+  font-size: 20px;
+  
+}
+
+.Footer-last>h2 {
+  margin-left: 0; /* Remove the left margin */
+}
+
+.wrapw
+{
+  display: inline;
+  
+}
+
+.Footer-last>ul {
+  
+  padding: 0; /* Remove default padding for the list */
+}
+
+.Footer-last>ul>li {
+  display: inline-block; /* Display list items horizontally */
+  margin-inline: 200px;
+}
+
+
+
+.subscribe>input{
+  width:67%;
+  height:39px;
+  padding: 0 10px;
+  border: 1px solid rgb(0, 0, 0);
+  outline: none;
+  float: left;
+  margin-left: 1%;
+  display: inline;
+  
+
+}
+.subscribe>button{
+  width:auto;
+  height: 40px;
+  background-color:#fff ;
+  border: 2px solid rgb(0, 0, 0);
+  float:right;
+  border-radius: 2px;
+  background-color: rgb(161, 154, 154);
+  
+}
+.subscribe{
+  padding-top: 10px;
+}
+.nava{
+  width:100%;
+  height: 59px;
+  background-color: rgb(188, 185, 181,0.6);
+  
+  
+}
+
+.foot-button{
+  margin-right: 2%;
+}
+
+
+/*Foot*/
+.wrapa {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(94, 200, 200); /* Change the color to a darker shade */
+}
+
+.left-foot,
+.middle-foot,
+.Footer-rigthS {
+  width: 30%; /* Adjust the width to your preference */
+  height: 300px;
+  float: left;
+  margin-left: 2%; /* Adjust the margin as needed */
+}
+
+.left-foot>ul>li {
+  list-style: none;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.middle-foot>ul>li {
+  margin-left: 5px;
+}
+
+.last-foot {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto; /* Center the .Footer-last horizontally */
+  text-align: center; /* Center the content inside .Footer-last */
+}
+
+.last-foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align the heading */
+}
+
+.last-foot h2 {
+  margin-bottom: 10px; /* Add margin below the heading */
+}
+
+.last-foot ul {
+  list-style: none; /* Remove bullet points from the list */
+  padding: 0; /* Remove default padding from the list */
+  margin: 0; /* Remove default margin from the list */
+}
+
+.last-foot li {
+  margin-right: 15px; /* Add margin between list items */
+  display: inline; /* Display list items inline */
+  margin-inline: 60px;
+}
+
+.last-foot a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Set link color */
+}
+
+.last-foot a:hover {
+  text-decoration: underline; /* Add underline on hover for links */
+}
+
+.right-foot>h2{
+  padding-top: 18px;
+}
+
+
+
+
+
